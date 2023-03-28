@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://pbs.twimg.com/profile_images/1290332809526153217/-PXTIJBa_400x400.jpg" width="80px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="bar.jpg" class="menu-icon" onclick="menutoggle()" >
+        
+    
+    </div>
+    </div>
+
+<div class="small-container">
+    
+    <div class="row row-2">
+        <h2>All Products </h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>Short by sale</option>
+        </select>
+    </div>
+     <div class="row">
+        <div class="col-4">
+            <img src="black tshirt.jpg" >
+            <h4>black printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                
+            </div>
+            
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="yeud.jpg" >
+            <br><br>
+            <br>
+            <h4>Princess Onepiece</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$139.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="pant111.jpg" >
+            <h4>Green Pants</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="shoes" >
+            <h4>Promotional Cheap Male Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$15.6</p>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="black tshirt.jpg" >
+                <h4>black printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    
+                </div>
+                
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="yeud.jpg" >
+                <br><br>
+                <br>
+                <h4>Princess Onepiece</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$139.00</p>
+            </div>
+            <div class="col-4">
+                <br>
+                <img src="pant111.jpg" >
+                <h4>Green Pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <br>
+                <img src="shoes" >
+                <h4>Promotional Cheap Male Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$15.6</p>
+            </div>
+    <div class="row">
+        <div class="col-4">
+            <br>
+            <br>
+            <img src="https://s.alicdn.com/@sc04/kf/H747ebd54ff474edea9982629286e79d1U.jpg_300x300.jpg" >
+            <h4>Women skirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                
+            </div>
+            
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <br><br>
+            <img src="https://sc04.alicdn.com/kf/H47aee14000e348d29ab38aa577e03505a.jpg" >
+            <br>
+            <h4>leopard women bag </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$139.00</p>
+        </div>
+        <div class="col-4">
+            <br><br>
+            <img src="https://s.alicdn.com/@sc04/kf/H23ba7dade06840fbb7d3fc921d5903672.jpg_300x300.jpg" >
+            <h4>Half Pants</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <br><br>
+            <br>
+            <img src="https://s.alicdn.com/@sc04/kf/H5f8cbe53c477431895cbb08911f0dbc0g.jpg_300x300.jpg" >
+            <h4>Elegance high heels</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-empty"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$100.6</p>
+        </div>
+        <div class="col-4">
+            <img src="http://sc04.alicdn.com/kf/H394246c2cd8a488aa3b95c76c26693e51.jpg" >
+            <br><br>
+            <h4>Banquet Style boot</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$95.00</p>
+        </div>
+        <div class="col-4">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61WiuXmAhbL._UX569_.jpg" >
+            <br><br>
+            <h4>Long skirts</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="https://s.alicdn.com/@sc04/kf/Ha6696bd571ac4dfdbda27d99276f3c98D.jpg_300x300.jpg" >
+            <br><br>
+            <h4>Men Party Wear</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$59.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="https://sc04.alicdn.com/kf/Hd774af2dc43940c68aaef02ba4600932S.jpg" >
+            <br>
+            <h4>Men's Causual T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$96.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="http://sc04.alicdn.com/kf/HTB1LX6qJFXXXXaeXFXXq6xXFXXXp.jpg" >
+            <br><br>
+            <h4>Gold Trim Cotton Dress</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="http://sc04.alicdn.com/kf/Hfc952a86e7d64b44807bb0e3eaf0f99cP.jpg" >
+            <br><br>
+            <h4>Summer Casual Gown</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-stroke"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$89.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="https://sc04.alicdn.com/kf/HTB1kS65cDtYBeNjy1Xdq6xXyVXaY.jpg" >
+            <br><br>
+            <h4>Evening Party Wear</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-of-life"></i>
+            </div>
+            <p>$37.00</p>
+        </div>
+        <div class="col-4">
+            <br>
+            <img src="https://sc04.alicdn.com/kf/H61337448570f40d79ae912a7f8b2270cf.jpg" >
+            <br><br>
+            <h4>Bodycon Dress</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$29.00</p>
+        </div>
+    </div>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="nn.jpg" class="smaller-image" >
+                <p>Our Purpose Is To Sustainably Make the Pressure and Benefits of Sports Accessible to the many.    
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+</div>
+
+        </div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if( MenuItems.style.maxHeight = "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+ else
+{
+    MenuItems.style.maxHeight = "0px";
+}
+    }
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

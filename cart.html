@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://pbs.twimg.com/profile_images/1290332809526153217/-PXTIJBa_400x400.jpg" width="80px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="bar.jpg" class="menu-icon" onclick="menutoggle()" >
+        </div>
+    </div>
+
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="ooo.jpg">
+                        <div>
+                            <p>OnePiece</p>
+                            <p>price:$50.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://cdn.shopify.com/s/files/1/1197/2796/products/11696433246_878885375_large.jpg?v=1640852791">
+                        <div>
+                            <p>Men NightWear</p>
+                            <p>price:$70.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$70.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://static-01.daraz.com.np/p/7a25d6852c32a763d5dc18927f6df849.jpg">
+                        <div>
+                            <p>Women's NightWear</p>
+                            <p>price:$90.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="2"></td>
+                <td>$90.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://static-01.daraz.com.np/p/972b0cdb2d64a96000230a6381c2f92f.jpg_720x720.jpg_.webp">
+                        <div>
+                            <p>Casual Half Pant</p>
+                            <p>price:$47.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$47.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://i.ebayimg.com/images/g/LrQAAOSwPP5i8Kvy/s-l1600.jpg">
+                        <div>
+                            <p>OnePiece</p>
+                            <p>price:$38.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$38.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://rukminim1.flixcart.com/image/612/612/l2f20sw0/shopsy-hand-messenger-bag/w/h/z/stylish-women-shoulder-bag-shoper-1red-hobo-khatushyam-original-imagdrmufvjmggzf.jpeg?q=70">
+                        <div>
+                            <p>Hand Bag</p>
+                            <p>price:$29.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$29.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61YeI3B-Z-L._UX569_.jpg"">
+                        <div>
+                            <p>Thinner Puffer Jacket</p>
+                            <p>price:$59.90</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$59.90</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDnc1Q3DoBKGLc-nnNHsIzNWtds0uc684BmA&usqp=CAU">
+                        <div>
+                            <p>Tan Overcoat</p>
+                            <p>price:$90.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$90.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7IfCFhGwPOH4i_Y4R3IcQF9CvZJJKQMZPPg&usqp=CAU">
+                        <div>
+                            <p>OnePiece</p>
+                            <p>price:$156.00</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="2"></td>
+                <td>$156.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$629.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$56.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$685.00</td>
+                </tr>
+            </table>
+        </div>
+ 
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="nn.jpg" class="smaller-image" >
+                        <p>Our Purpose Is To Sustainably Make the Pressure and Benefits of Sports Accessible to the many.    
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright 2020 - Easy Tutorials</p>
+            </div>
+        </div>
+        
+                </div>
+        </div>
+        
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+        
+            MenuItems.style.maxHeight = "0px";
+        
+            function menutoggle(){
+                if( MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+         else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+            }
+        
+        </script>
+        </body>
+        </html>
+        
+        
+        
+        
